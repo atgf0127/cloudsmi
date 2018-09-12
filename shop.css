@@ -1,0 +1,113 @@
+@charset "gbk";
+/**********商品************/
+ul.goodslist{}
+ul.goodslist li{ float:left; display:inline; margin:10px; width:130px; overflow:hidden;}
+ul.goodslist li .spimg{ border:1px solid #EEE; margin-bottom:4px;}
+ul.goodslist li .spimg table{ height:128px; width:128px; text-align:center; vertical-align:middle;}
+ul.goodslist li .spimg td a{ display:block; text-align:center; width:128px;}
+ul.goodslist li .spimg img{ max-height:128px; max-width:128px;
+							width:expression(this.width > 128 && this.width/this.height >= 1 ? 128 : true);
+							height:expression(this.height > 128 && this.height/this.width >= 1 ? 128 : true);
+							}
+ul.goodslist li p.spname{ height:36px; line-height:18px; overflow:hidden;}
+ul.goodslist li p.mkprice { color:#888; height:16px; line-height:16px; overflow:hidden;}
+ul.goodslist li p.nowprice { color:#ED8C02; height:18px; line-height:18px; margin-bottom:3px; overflow:hidden;}
+ul.goodslist li p.nowprice strong{ color:#CC0303; font-size:14px;}
+ul.goodslist li em.moneySb{ font-style:normal; font-size:12px; }
+
+/**推荐商品**/
+.recommend_goods{ border:1px solid #ddd;}
+.recommend_goods .heading{ background:#eee url("heading_bg.gif")/*tpa=http://www.cloudsmi.com/template/default_widescreen/images/heading_bg.gif*/ 0px 0px repeat-x; border-bottom:1px solid #ddd; font-size:12px; font-weight:bold; height:20px; line-height:20px; padding:3px 0px 3px 10px;}
+ul.itemImglist1{}
+ul.itemImglist1 li{ border-bottom:1px solid #EEE; height:24px; line-height:24px; padding-top:2px;}
+ul.itemImglist1 li a:hover{ text-decoration:none;}
+ul.itemImglist1 li .boxl{ float:left;}
+ul.itemImglist1 li .boxr{ padding-left:83px!important; padding-left:80px;}
+ul.itemImglist1 li .boxl .simg{ border:1px solid #EEE; display:inline-block; float:left; height:58px; margin-top:4px; width:58px; overflow:hidden;}
+ul.itemImglist1 li .boxl .simg td{ height:58px; width:58px; text-align:center; vertical-align:middle;}
+ul.itemImglist1 li .simg td a{ display:block; text-align:center; width:58px;}
+ul.itemImglist1 li .boxl .simg img{ max-height:58px; max-width:58px;
+								 width:expression(this.width > 58 && this.width/this.height >= 1 ? 58 : true);
+								 height:expression(this.height > 58 && this.height/this.width >= 1 ? 58 : true);
+								 }
+ul.itemImglist1 li em.od , ul.itemImglist1 li em.red{ background:#DDD; display:inline-block; float:left; font-size:11px; height:14px; line-height:14px; margin:5px 5px 0px 0px; width:14px; text-align:center; overflow:hidden;}
+ul.itemImglist1 li em.red{ background:#BC2D09; color:#FFF;}
+ul.itemImglist1 li .boxr{}
+ul.itemImglist1 li .name{ padding-top:1px;}
+ul.itemImglist1 li .dd{ line-height:18px;}
+ul.itemImglist1 li p.nowprice { color:#ED8C02;}
+ul.itemImglist1 li p.nowprice strong{ color:#CC0303; font-size:12px;}
+ul.itemImglist1 li em.moneySb{ font-style:normal;}
+
+ul.itemImglist1 li.current{ height:auto; padding-bottom:5px; zoom:1; overflow:auto; }
+ul.itemImglist1 li.current .name{ height:18px; line-height:18px; padding-top:2px; overflow:hidden; }
+ul.itemImglist1 li.normal{ overflow:hidden;}
+ul.itemImglist1 li.normal .boxr{ padding-left:20px!important; padding-left:20px;}
+ul.itemImglist1 li.normal .simg , ul.itemImglist1 li.normal .dd{ display:none;}
+
+/**热销/新品**/
+.hot_goods{ border:1px solid #ddd; margin-top:5px;}
+.hot_goods .heading{ background:#eee url("heading_bg.gif")/*tpa=http://www.cloudsmi.com/template/default_widescreen/images/heading_bg.gif*/ 0px 0px repeat-x; border-bottom:1px solid #ddd; font-size:12px; font-weight:bold; height:20px; line-height:20px; padding:3px 0px 3px 10px;}
+.hot_goods .bd{}
+
+/**商品列表 按属性查询**/
+.attrlist{ border:1px solid #DDD; background:#f0f0f0; padding:6px;}
+.attrlist .attr{ border:1px solid #EEE; background:#FFF; padding:5px;}
+.attrlist td.Attr_name{ font-weight:bold; border-bottom:1px solid #EEE; padding:5px 5px 5px 2px; text-align:right;  width:90px; }
+.attrlist td.Attr_value{ text-align:left;}
+.attrlist td.Attr_value { border-bottom:1px dashed #EEE; padding:5px 5px 5px 10px;}
+.attrlist td.Attr_value a { display:inline-block; height:22px; line-height:22px; margin-right:16px; }
+.attrlist td.Attr_value a , attrlist td.Attr_value a:visited{ color:#888; text-decoration:underline;}
+.attrlist td.Attr_value a:hover ,.attrlist td.Attr_value a.current{ color:#B80202;}
+  
+.spnum{ width:60px; display:inline-block;}
+.spnum td{ border:0px!important; padding:0px!important;}
+.spnum .numinput{ font-size:14px; height:14px;!important; line-height:14px;!important; margin-right:2px; width:32px!important; vertical-align:baseline; text-align:center;}
+.spnum .do_numup , .spnum .do_numdown{ background-image:url("do_updown.gif")/*tpa=http://www.cloudsmi.com/template/default_widescreen/images/icon/do_updown.gif*/; cursor:pointer; display:inline-block; height:10px; width:18px; overflow:hidden;}
+.spnum .do_numup{ background-position:0px 0px; margin-bottom:2px; }
+.spnum .do_numdown{ background-position:0px -10px; }
+
+#noselectcue{ border:1px solid #C32B02; background:#FEFCDD; color:#C32B02; font-weight:bold; font-size:12px; padding:10px; position:absolute; margin-top:40px; }
+#noselectcue font{ color:#000; font-size:12px; font-weight:normal;}
+
+/**购物车**/
+.cart{ padding-bottom:50px;}
+.cart_nav{ background:#EFEFEF url("cart_nav_bg.gif")/*tpa=http://www.cloudsmi.com/template/default_widescreen/images/cart_nav_bg.gif*/ 0px 0px no-repeat; height:48px;}
+.cart_nav ul{ padding-top:8px; margin-left:202px; height:34px;}
+.cart_nav ul li{ float:left; font-size:14px; font-weight:bold;}
+.cart_nav ul li a{ display:inline-block; height:34px; line-height:34px; padding:0px 40px 0px 40px; cursor:default; }
+.cart_nav ul li a.pointer{ cursor:pointer; }
+.cart_nav ul li a , .cart_nav ul li a:visited{ color:#333; text-decoration:none;}
+.cart_nav ul li a span{ font-size:18px; padding-right:5px;}
+.cart_nav ul li.current a , 
+.cart_nav ul li.current a:visited , 
+.cart_nav ul li.current a:hover
+{ background:#EFEFEF url("cart_nav.gif")/*tpa=http://www.cloudsmi.com/template/default_widescreen/images/cart_nav.gif*/ right 0px no-repeat; color:#FFF; padding:0px 30px 0px 20px; text-decoration:none;}
+
+.cart_goods{ background:#F0F0F0; border:1px solid #DDD; padding:10px;}
+.cart_goods .y_inbox{ background:#FEFEF3; border:2px solid #FFAE00; padding:5px;}
+.cart_goods .spimg{ background:#FFF; border:1px solid #EEE; width:70px;}
+.cart_goods .spimg table{ border:0px; margin:0px; padding:0px; height:68px; width:68px; }
+.cart_goods .spimg table td{ background:#FFF; margin:0px; padding:0px; text-align:center; vertical-align:middle;}
+.cart_goods .spimg table td a{}
+.cart_goods .spimg img{ max-height:68px; max-width:68px; height:expression(this.height > 68 && this.height/this.width >= 1 ? 68 : true); width:expression(this.width > 68 && this.width/this.height >= 1 ? 68 : true); }
+
+/**购物车/订单里的套装**/
+.cart ul.adjunctgoodslist{ background:url("bigicon_add.gif")/*tpa=http://www.cloudsmi.com/template/default_widescreen/images/icon/bigicon_add.gif*/ 0px 35px no-repeat; zoom:1; overflow:auto; }
+.cart ul.adjunctgoodslist{ padding:2px 0px 5px 30px;}
+.cart ul.adjunctgoodslist li{ float:left; display:inline; margin:0px 1px 1px 0px; padding:10px; width:72px; height:160px; overflow:hidden;}
+.cart ul.adjunctgoodslist li .spimg{ background:#FFF; border:1px solid #EEE; margin-bottom:4px; position:inherit;}
+.cart ul.adjunctgoodslist li .spimg table{ height:68px; width:68px; text-align:center; vertical-align:middle;}
+.cart ul.adjunctgoodslist li .spimg table td a{ display:block; text-align:center; width:68px;}
+.cart ul.adjunctgoodslist li .spimg img{ max-height:68px; max-width:68px; height:expression(this.height > 68 && this.height/this.width >= 1 ? 68 : true); width:expression(this.width > 68 && this.width/this.height >= 1 ? 68 : true);}
+.cart ul.adjunctgoodslist li p.spname{ height:36px; line-height:18px; overflow:hidden;}
+.cart ul.adjunctgoodslist li p.nowprice{ color:#666; line-height:18px; margin-bottom:3px;}
+.cart ul.adjunctgoodslist li p.adjprice{ color:#CC0303; line-height:18px; margin-bottom:3px; }
+.cart ul.adjunctgoodslist li em.moneySb{ font-style:normal; font-size:12px; }
+
+
+.cart .listTable tr:hover td{ background:#FEFCDC;}
+
+.donext_line{ padding:10px 0px 0px 180px;}
+
+.cartalert{ background:#FFE6E6; border:2px solid #DA2E00; color:#271509; font-size:14px; font-weight:bold; padding:15px; }

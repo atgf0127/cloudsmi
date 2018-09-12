@@ -1,0 +1,42 @@
+@charset "gbk";
+/****商品详细页****/
+.product-detail{ margin:10px 0px 0px 0px;}
+.product-detail .heading{ background:#f8f8f8; border:1px solid #e6e6e6; font-size:12px; font-weight:bold; height:20px; line-height:20px; padding:4px 0px 4px 10px; }
+.dt-summary{ padding:0px 0px 10px 0px;}
+.dt-detail{ padding:5px 0px 0px 0px;}
+
+/**放大镜**/
+.cloud-zoom-lens { border:1px solid #666; margin:0px; background-color:#fff; cursor:move;}
+.cloud-zoom-title { display:none;}
+.cloud-zoom-big { border:4px solid #ccc; overflow:hidden;}
+.cloud-zoom-loading { color:#666; background:#eee; border:1px dotted #888; padding:2px 10px; position:absolute; width:68px;}
+
+.product-infoitem{ padding:10px 0px;}
+.product-infoitem img{ width:expression(this.width > 770 && true ? 770 : true); max-width:770px; }
+
+.product-detail-content{}
+.product-detail-content p{ line-height:200%; margin:0.5em 0px;}
+.relate_votes{ margin:20px 0px 0px 0px;}
+.relate_votes .heading{ background:none; border:none; padding:0px 0px 5px 0px;}
+.related_items{ margin:20px 0px 0px 0px; }
+
+/**产品图片**/
+.dt-gallery{ float:left; width:320px;}
+.dt-gallery .gallery-view{ border:1px solid #DDD; height:318px; width:318px; }
+.dt-gallery .gallery-view table{ height:310px; width:310px; margin:4px; vertical-align:middle; text-align:center;}
+.dt-gallery .gallery-view table td{ height:310px; width:310px; text-align:center;}
+.dt-gallery .gallery-view table td #wrap{ display:inline-block; text-align:center; z-index:9999; position:relative;}
+.dt-gallery .gallery-view table td a.cloud-zoom{ display:inline-block;}
+.dt-gallery .gallery-view img.view{ float:left; max-height:310px; max-width:310px; height:expression(this.height > 310 && this.height/this.width >= 1 ? 310 : true); width:expression(this.width > 310 && this.width/this.height >= 1 ? 310 : true);}
+.gallery{ margin:2px 0px 0px 0px;}
+.gallery li{ border:1px solid #cdcdcd; float:left; height:44px; margin:6px 6px 0px 0px; width:44px; overflow:hidden; text-align:center;}
+.gallery li img{ height:expression(this.height > 44 && true ? 44 : true); width:expression(this.width > 44 && true ? 44 : true); max-height:44px; max-width:44px;}
+.gallery li.current{ border:2px solid #C30008; height:42px; width:42px;}
+.gallery li.current img{ max-height:44px; max-width:44px; margin:-1px 0px 0px -1px;}
+/**产品基本信息**/
+.dt-property{ padding-left:335px;}
+.dt-property .product-name{ color:#222; font-size:14px; line-height:22px; font-weight:bold; margin-bottom:4px;}
+.dt-property .attr{ line-height:20px; padding:0px 0px 0px 0px;}
+.dt-property .attr td{ padding:2px 0px;}
+.dt-property .abstract{ background:#fafafa; border:1px dashed #eee; margin:5px 0px 0px 0px; padding:6px 10px;}
+.dt-property .abstract h5{ font-size:12px;}

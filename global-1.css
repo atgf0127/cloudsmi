@@ -1,0 +1,246 @@
+@charset "gbk";
+body{ color:#333; font-size:12px; font-family:Tahoma; line-height:180%; }
+body,div,ul,li,img,p,h1,h2,h3,h4,h5,h6,span,form{ margin:0px; padding:0px; word-break:break-all; word-wrap:break-word;}
+h1{ font-size:22px;}h2{ font-size:20px;}h3{ font-size:18px;}h4{ font-size:16px;}h5{ font-size:14px;}h6{ font-size:12px;}
+ul,li{ list-style:none;}
+del{text-decoration:line-through;}
+a img{ border:0px;}
+a,a:visited{ color:#424242; text-decoration:none;}
+a:hover{ color:#B80202; text-decoration:underline;}
+.clear { clear:both; *zoom:1;}
+.clear:after{ display:block; content:" "; clear:both; height:0;}
+.hidden{ display:none !important;}
+.zoom{ zoom:1; overflow:auto;}
+
+.fl{ float:left;}.fr{ float:right;}
+.alignleft{ text-align:left;}.aligncenter{ text-align:center;}.alignright{ text-align:right;}
+.nobg{ background:none;}
+.td{display:table-cell;vertical-align:top;*float:left;}
+.overhid{overflow:hidden;}
+.underline a{ text-decoration:underline;}
+.underline_a a , .underline_a a:visited{ text-decoration:underline;}
+.noneunderline_a a , .noneunderline_a a:visited{ text-decoration:none;}
+.hoverunderline_a a{ text-decoration:underline; }
+.hovernoneunderline_a a{ text-decoration:none; }
+
+.more{ float:right;}
+.moneySb{ font-family:"Tahoma","Verdana","Arial","sans-serif","Microsoft yahei","微软雅黑";  -webkit-text-size-adjust:none; font-style:normal;}
+
+.logopre{ font-weight:bold; color:#CB3002;} .logosuf{ font-weight:bold; color:#084E9D;}
+
+pre,code{ background:#f6f6f6; border:1px solid #ddd; font-size:12px; font-family:Monaco,Consolas,'Lucida Console','Courier New',serif; padding:10px;}
+
+/****width/height*****/
+.ht3{ height:3px;}.ht4{ height:4px;}.ht5{ height:5px;}.ht6{ height:6px;}.ht7{ height:7px;}.ht8{ height:8px;}.ht9{ height:9px;}.ht10{ height:10px;}
+.width250{ width:250px;}
+.width350{ width:350px;}
+/**********/
+.p2{padding:2px;}.pt2{padding-top:2px;}.pr2{padding-right:2px;}.pb2{padding-bottom:2px;}.pl2{padding-left:2px;}
+.p3{padding:3px;}.pt3{padding-top:3px;}.pr3{padding-right:3px;}.pb3{padding-bottom:3px;}.pl3{padding-left:3px;}
+.p5{padding:5px;}.pt5{padding-top:5px;}.pr5{padding-right:5px;}.pb5{padding-bottom:5px;}.pl5{padding-left:5px;}
+.p8{padding:8px;}.pt8{padding-top:8px;}.pr8{padding-right:8px;}.pb8{padding-bottom:8px;}.pl8{padding-left:8px;}
+.p10{padding:10px;}.pt10{padding-top:10px;}.pr10{padding-right:10px;}.pb10{padding-bottom:10px;}.pl10{padding-left:10px;}
+.p15{padding:15px;}.pt15{padding-top:15px;}.pr15{padding-right:15px;}.pb15{padding-bottom:15px;}.pl15{padding-left:15px;}
+.p20{padding:20px;}.pt20{padding-top:20px;}.pr20{padding-right:20px;}.pb20{padding-bottom:20px;}.pl20{padding-left:20px;}
+.p25{padding:20px;}.pt25{padding-top:25px;}.pr25{padding-right:25px;}.pb25{padding-bottom:25px;}.pl25{padding-left:25px;}
+.m2{margin:2px;}.mt2{margin-top:2px;}.mr2{margin-right:2px;}.mb2{margin-bottom:2px;}.ml2{margin-left:2px;}
+.m3{margin:3px;}.mt3{margin-top:3px;}.mr3{margin-right:3px;}.mb3{margin-bottom:3px;}.ml3{margin-left:3px;}
+.m5{margin:5px;}.mt5{margin-top:5px;}.mr5{margin-right:5px;}.mb5{margin-bottom:5px;}.ml5{margin-left:5px;}
+.m8{margin:8px;}.mt8{margin-top:8px;}.mr8{margin-right:8px;}.mb8{margin-bottom:8px;}.ml8{margin-left:8px;}
+.m10{margin:10px;}.mt10{margin-top:10px;}.mr10{margin-right:10px;}.mb10{margin-bottom:10px;}.ml10{margin-left:10px;}
+.m15{margin:15px;}.mt15{margin-top:15px;}.mr15{margin-right:15px;}.mb15{margin-bottom:15px;}.ml15{margin-left:15px;}
+.m20{margin:20px;}.mt20{margin-top:20px;}.mr20{margin-right:20px;}.mb20{margin-bottom:20px;}.ml20{margin-left:20px;}
+.m25{margin:25px;}.mt25{margin-top:25px;}.mr25{margin-right:25px;}.mb25{margin-bottom:25px;}.ml25{margin-left:25px;}
+/****font*****/
+.font10{ font-size:10px;}.font11{ font-size:11px;}.font12{ font-size:12px;}.font13{ font-size:13px;}.font14{ font-size:14px;}.font15{ font-size:15px;}.font16{ font-size:16px;}
+.bold {font-weight:bold;}
+.normal {font-weight:normal;}
+.pointer {cursor:pointer;}
+
+/****color*****/
+.blue , .blue_a a , .blue_a a:visited{ color:#015FB7;}
+.gray{color:#666;}
+.bg-gray{ background:#f6f6f6;}
+.yellow{ color:#FB6400;}
+.red{color:#F00;}
+.redh , .redh_a a , .redh_a a:visited{ color:#B80202;}
+.green{ color:#277402;}
+.green_a a , .green_a a:visited{ color:#277402;}
+.color000{ color:#000;}.color222{ color:#222;}.color333{ color:#333;}.color444{ color:#444;}.color555{ color:#555;}.color666{ color:#666;}.color777{ color:#777;}.color888{ color:#888;}
+/*****/
+.changecheckcode{ font-size:12px; font-weight:normal; list-style:none; list-style-type:none; margin-left:5px;}
+.changecheckcode a,.changecheckcode a:visited{ text-decoration:underline;}
+
+/* icons */
+.icon{ background:url("sys_icon-1.png")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/sys_icon.png*/; display:inline-block; height:22px; width:25px; vertical-align:middle;}
+  .icon_computer{ background-position:0px 0px; }/**计算机**/
+  .icon_friend{ background-position:0px -30px; }/***朋友组**/
+  .icon_friend_groupgear{ background-position:0px -60px; }
+  .icon_friend_groupadd{ background-position:0px -90px; cursor:pointer; }
+  .icon_friend_groupedit{ background-position:0px -120px; cursor:pointer; }
+  .icon_friend_groupdel{ background-position:0px -150px; cursor:pointer; }
+  .icon_add{ background-position:0px -180px; cursor:pointer; }             /**添加**/
+  .icon_del{ background-position:0px -210px; cursor:pointer; }             /**删除**/
+  .icon_recycle{ background-position:0px -240px; cursor:pointer; }         /**回收站**/
+  .icon_save{ background-position:0px -270px; cursor:pointer; }            /**保存**/
+  .icon_close{ background-position:0px -300px; cursor:pointer; }           /**关闭**/
+  .icon_close:hover,.icon_close_hover{ background-position:0px -330px; cursor:pointer; }     /**关闭**/
+  .icon_telephone{ background-position:0px -360px;}                      /**电话**/
+  .icon_phone{ background-position:0px -390px;}                          /**手机**/
+  .icon_friend_group{ background-position:0px -420px;}                   /**我的好友分组**/
+  .icon_edit{ background-position:0px -450px;}                           /**编辑**/
+  .icon_gear{ background-position:0px -480px;}                           /**配置**/
+  
+/*******系统按钮******/
+.btn{ background:url("buttons-1.gif")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/buttons.gif*/ 0px 0px no-repeat; border:none; cursor:pointer;}
+  .btn_search{ background-position:-10px -10px; height:22px; width:53px; }/**搜索**/
+  .btn_payforthisorder{ background-position:-10px -50px; height:30px; width:122px; }/**为订单付款**/
+  .btn_recharge{ background-position:-100px -90px; height:25px; width:84px; }/**立即冲值**/
+  .btn_buy{ background-position:-10px -90px; height:22px; width:60px;}/**购买**/
+  .btn_storeup{ background-position:-10px -130px; height:22px; width:60px;}/**收藏**/
+  .btn_del{ background-position:-100px -130px; height:22px; width:60px;}/**删除**/
+  .btn_buynow{ background-position:-10px -170px; height:30px; width:110px;}/**立即购买**/
+  .btn_addtocart{ background-position:-10px -210px; height:30px; width:120px;}/**放入购物车**/
+  .btn_sendconsult{ background-position:-10px -250px; height:22px; width:87px;}/**提交咨询**/
+  .btn_sendcomment{ background-position:-10px -290px; height:22px; width:87px;}/**发表评论**/
+  .btn_gotopay{ background-position:-10px -326px; height:38px; width:142px;}/**去结算**/
+  .btn_goshopping{ background-position:-10px -370px; height:26px; width:104px;}/**清空购物车**/
+  .btn_clearcart{ background-position:-10px -410px; height:26px; width:104px;}/**清空购物车**/
+  .btn_backtocart{ background-position:-10px -450px; height:26px; width:104px;}/**返回购物车**/
+  .btn_placingorder{ background-position:-10px -486px; height:38px; width:160px;}/**提交订单**/
+  .btn_login{ background-position:-10px -530px; height:30px; width:104px;}/**登陆**/
+  .btn_reg{ background-position:-10px -570px; height:30px; width:104px;}/**注册**/
+  .btn_send{ background-position:-10px -610px; height:28px; width:78px;}/**发表**/
+  .btn_sendguestbook{ background-position:-10px -650px; height:28px; width:104px;}/**提交留言**/
+  .btn_submit{ background-position:-10px -690px; height:28px; width:104px;}/**提交保存**/
+  .btn_reset{ background-position:-10px -730px; height:28px; width:104px;}/**重置**/
+  .btn_buypacks{ background-position:-10px -770px; height:28px; width:104px;}/**购买套装**/
+  .btn_comfirm{ background-position:-10px -811px; height:30px; width:104px;}/**确定**/
+  
+a.btn_buy{ background:url("buttons-1.gif")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/buttons.gif*/ 0px 0px no-repeat; background-position:-10px -90px; cursor:pointer; display:inline-block; height:22px; width:60px;}
+  
+/** 系统按钮(非图片) **/
+.sysBtn,.sysBtn_s     { background:#000000; border-left:1px solid #B8D4E8; border-top:1px solid #B8D4E8; border-bottom:1px solid #124680; border-right:1px solid #124680; color:#FFF;}
+.sysBtn_grey,.sysBtn_grey_s{ background:#F0F0F0; border-left:1px solid #FFF; border-top:1px solid #FFF; border-bottom:1px solid #848484; border-right:1px solid #848484; color:#333;}
+.sysBtn , .sysBtn_grey { cursor:pointer; line-height:14px; display:inline-block; vertical-align:middle;
+						 padding:3px 16px 2px 16px!important;/** ie7 ie8 firefox **/
+						 padding:4px 10px 2px 10px;
+						 *padding:5px 10px 2px 10px!important;/** ie7 **/
+						 _padding:5px 6px 2px 8px; _line-height:12px; /** ie6 **/
+						}
+.sysBtn_s , .sysBtn_grey_s { cursor:pointer; line-height:12px; display:inline-block; vertical-align:middle;
+						 padding:1px 12px 1px 12px!important;/** ie7 ie8 firefox **/
+						 padding:3px 6px 1px 6px;
+						 *padding:4px 6px 1px 6px!important;/** ie7 **/
+						 _padding:3px 6px 1px 6px;/** ie6 **/
+						}
+a.sysBtn,a.sysBtn:visited{ color:#FFF;}
+a.sysBtn:hover,a.sysBtn_grey:hover{ text-decoration:none;}
+
+/*******分页样式******/
+.bof_page{ border-top:1px solid #eee; padding:5px; }
+.eof_page{ border-top:1px solid #eee; padding:5px; }
+.pageLine{ border:1px solid #eee; border-top:2px solid #315582; padding:10px 0px; margin-top:10px;}
+.pagestyle{ clear:both; display:block;}
+.pagestyle a,.pagestyle a:active,.pagestyle a:link,.pagestyle a:visited{clear:both;padding:2px 4px 2px 4px;margin:2px;text-decoration: none;border:1px solid #ccc;color:#777; background:#FFF; font-size:11px;font-weight:bold;font-family:Arial, Helvetica, sans-serif,'宋体','新宋体';}
+.pagestyle a:hover{padding:2px 4px 2px 4px; margin:2px;text-decoration: none;border:1px solid #06c;color:#06c;}
+.pagestyle span.current{padding:2px 4px 2px 4px; margin:2px;font-weight: bold;border:1px solid #06c;color:#fff;background:#5197e7;font-size:11px;font-weight:bold;font-family:Arial, Helvetica, sans-serif,'宋体','新宋体';}
+.pagestyle span.extend,.pagestyle span.pages{padding:2px 4px 2px 4px; margin:2px;font-weight: bold;border:1px solid #555;color:#fff;background:#9c9c9c;font-size:11px;font-weight:bold;font-family:Arial, Helvetica, sans-serif,'宋体','新宋体';}
+/****/
+/****************弹出层******************/
+  .DialogWindow{ position:absolute; padding:10px; background-image:url("translucent-1.png")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/translucent.png*/;background-repeat:repeat;}
+    .DialogWindowin{ background:#FFF; padding:0px 0px 0px 0px; border:1px solid #284E7D;}
+	.DialogTitle{ border-bottom:1px solid #284E7D; cursor:move; color:#FFF; background:#000000; height:26px;line-height:26px; padding:0px 0px 0px 8px; font-weight:bold; font-size:12px;}
+	.DialogTitle span.close{ float:right; padding-top:6px; padding-right:8px;}
+	.DialogTitle a.icon{ background:url("close_dialog-1.gif")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/close_dialog.gif*/; cursor:pointer; display:inline-block; height:12px; line-height:12px; width:12px; vertical-align:middle;}
+	.DialogTitle a.icon_close{ background-position:-6px -15px; height:12px; line-height:12px;}
+	.DialogTitle a.icon_close:hover{ background-position:-6px -45px; height:16px; line-height:16px;}
+	.DialogText{ background:#f6f6f6; line-height:160%; position:relative; overflow:auto;}
+	.DialogText .fixbox{}
+	.actline{ height:24px; padding:5px 10px 5px 10px; background:#eee; border-top:1px solid #E6E6E6; width:auto; text-align:right;}
+	.diainbox{ padding:5px;}
+  /***弹出窗口出现时的半透明遮照层**/
+  .ShadowDiv{ position:absolute; filter:alpha(opacity=60); opacity:0.6; left:0px; top:0px; background:#333; visibility:visible;}
+/*****/
+
+.d_ok   { color:#0F780F; border:1px dashed #22991E; background:#E9FFE8 url("li_ok-1.gif")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/icon/li_ok.gif*/ no-repeat 4px 2px;}
+.d_err  { color:#C11B0B; border:1px dashed #EF421E; background:#FFECE1 url("li_err-1.gif")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/icon/li_err.gif*/ no-repeat 4px 2px;}
+.d_alert{ color:#1165C8; border:1px dashed #22A2FE; background:#EFF7FE url("li_alert-1.gif")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/icon/li_alert.gif*/ no-repeat 4px 2px;}
+.d_ok,.d_err,.d_alert { padding:0px 4px 0px 24px;}
+label.d_ok , label.d_err , label.d_alert{ display:inline-block; line-height:20px; margin:0px 1px 1px 0px; vertical-align:middle;}
+.d_loading { color:#706F6F; border:1px dashed #C7C7C6; background:#f6f6f6 url("loading-1.gif")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/icon/loading.gif*/ no-repeat 4px 50%; padding:3px 4px 2px 24px;}
+/******/
+
+/**加载中...**/
+.loading_box{ background:url("loading_box_top_bg-1.gif")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/loading_box_top_bg.gif*/ 0px 0px repeat-x; }
+.loading_big{ color:#918E8E; background:url("loading_blue_large-1.gif")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/loading_blue_large.gif*/ 0px center no-repeat; padding:5px 5px 5px 40px; margin:5px; font-size:14px; line-height:34px;}
+
+/****/
+.poundage{ border-bottom:1px dashed #e6e6e6; color:#888; display:inline-block; margin:0px 0px 5px 0px; padding:0px 0px 5px 0px;}
+
+/****/
+input.bigbtn{ background:#395F8E; border-left:2px solid #AABCD2; border-top:2px solid #AABCD2; border-right:2px solid #143966; border-bottom:2px solid #143966;
+              cursor:pointer; color:#FFF; font-size:14px; font-weight:bold; padding:8px 52px;
+			}/**立即支付**/
+button.Button{ font-size:12px; font-weight:bold; cursor:pointer; height:32px; line-height:32px; 
+			   padding:0px 32px!important;/** ie7 ie8 firefox **/
+			   padding:0px 22px;
+			   *padding:0px 18px!important;/** ie7 **/
+			   _padding:0px 18px;/** ie6 **/
+			   }
+button.back{ color:#000; background:#C6C6C6; border-left:2px solid #FFF; border-top:2px solid #FFF; border-right:2px solid #9D9D9D; border-bottom:2px solid #9D9D9D; margin-right:5px;}
+button.next{ color:#FFF; background:#2188C9; border-left:2px solid #FFF; border-top:2px solid #FFF; border-right:2px solid #045FA4; border-bottom:2px solid #045FA4; }
+textarea.text{ border-left:1px solid #909090; border-top:1px solid #909090; border-right:1px solid #C0C0C0; border-bottom:1px solid #C0C0C0; background:#F9F9F9;}
+textarea.text{ padding:2px 2px 2px 3px!important; padding:3px 2px 1px 3px;}
+input.text{ height:14px; line-height:14px; width:160px; }
+input.text,input.uploadfile{border-left:1px solid #909090; border-top:1px solid #909090; border-right:1px solid #C0C0C0; border-bottom:1px solid #C0C0C0; background:#F9F9F9; padding:3px 2px 3px 3px!important; padding:4px 2px 2px 3px; vertical-align:middle;}
+input.text:hover{ background:#fff;}
+input.uploadfile{ height:22px; line-height:22px; width:300px; padding:0px; }
+
+input.codetext{ border:1px solid #BBB; height:16px; line-height:16px; padding:2px 2px 2px 3px!important; padding:3px 2px 1px 3px; vertical-align:middle;}
+
+textarea{ font-size:12px; font-family:Arial, Helvetica, sans-serif; }
+select{ background:#F9F9F9; border:1px solid; border-color:#909090 #C0C0C0 #C0C0C0 #909090; padding:1px 2px 1px 3px; height:22px; line-height:22px; margin-top:1px;_font-size;13px;/** ie6 **/}
+
+/**订单支付**/
+.orderpay{}
+.orderpay .heading{ font-weight:bold; padding:10px;}
+.orderpay .paymentslist{ background:#fff; border:1px solid #eee; padding:10px;}
+.orderpay .do_pay{ padding:10px 0px; text-align:center;}
+
+/**找回密码**/
+.forget_password{}
+.forget_password .heading{ border-bottom:1px solid #eee; font-weight:bold; padding:5px 0px 10px 0px;}
+.forget_password .forget_bd{ padding:10px 0px;}
+
+/**找回密码**/
+.getpassword{ padding:20px 40px 100px 40px;}
+.getpassword .heading{ border-bottom:1px solid #eee; font-weight:bold; padding:5px 0px 10px 0px;}
+
+/**在线客服**/
+.onlineservice{ font-family:"微软雅黑"; text-shadow:0px 1px 0px #fff; margin:0px; position:absolute; right:0px; top:100px; width:136px; z-index:99999999;}
+.onlineservice a.mini{ background:url("onlineservice-1.png")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/onlineservice.png*/ 0px 0px no-repeat; float:right; display:inline-block; height:90px; width:30px; overflow:hidden;}
+.onlineservice .listpanel{ display:none; width:136px;}
+.onlineservice .heading{ background:url("onlineservice-1.png")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/onlineservice.png*/ -40px 0px no-repeat; height:24px; line-height:24px; overflow:hidden; position:relative; }
+.onlineservice .listpanel{ background:#fafafa;}
+.onlineservice .wrapper{ border:1px solid #ddd; padding:5px 0px 10px 0px;}
+.onlineservice a.close{ background-image:url("onlineservice-1.png")/*tpa=http://www.cloudsmi.com/company/template/default_widescreen/images/onlineservice.png*/; background-position:-40px -32px; display:inline-block; height:24px; width:24px; overflow:hidden; position:absolute; right:0px; top:0px;}
+.onlineservice a.close:hover{ background-position:-64px -32px;}
+.onlineservice dl{ border-bottom:1px dotted #e6e6e6; box-shadow:0px 1px 0px #fff; margin:5px 10px; padding:0px 0px 5px 0px;}
+.onlineservice dl dt{ font-size:12px; margin:0px; padding:0px;}
+.onlineservice dl dd{ margin:0px; padding:2px 0px;}
+.onlineservice dl dd.tel{ color:#c70505; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+.onlineservice dl dd.qq{}
+.onlineservice dl dd.wangwang{}
+
+/**编辑器表格样式**/
+table.noBorderTable td,
+table.noBorderTable th,
+table.noBorderTable caption{ border:none;}
+table.haveBorderTable{margin-bottom:10px;border-collapse:collapse;display:table;}
+table.haveBorderTable td,
+table.haveBorderTable th{ background:#ffff; padding:5px 10px; border:1px solid #aaa;}
+table.haveBorderTable caption{border:1px dashed #aaa; border-bottom:0; padding:3px; text-align:center;}
+table.haveBorderTable th{border-top:2px solid #aaa;background:#f6f6f6;}
+table.haveBorderTable td p{margin:0;padding:0;}
+
